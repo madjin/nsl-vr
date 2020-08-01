@@ -11,6 +11,7 @@
   <AssetImage id="computers" src="img/computers.gif"/>
   <AssetImage id="meetup-thumb" src="img/nsl-meetup.jpg" />
   <AssetImage id="mute" src="img/win7_mute.png"/>
+  <AssetImage id="nsl-logo" src="img/nsl.jpg" />
   <AssetObject id="nsl" src="models/inside/nsl-matterport.gltf"/>
   <AssetObject id="boombox" src="models/boombox.obj.gz" mtl="models/boombox.mtl" />
   <AssetObject id="monitor" src="models/BigFloor.dae.gz"/>
@@ -20,6 +21,7 @@
   <AssetVideo auto_play="true" height="600" id="stream1" loop="false" src="presentation_noaudio.mp4" width="800"/>
   <AssetVideo auto_play="true" height="500" id="stream2" src="david1.webm" width="600"/>
   <AssetWebsurface height="600" id="meetup" src="https://www.meetup.com/NullSpaceLabs/events/" width="800"/>
+  <AssetWebsurface id="twitter" src="https://twitter.com/nullspacelabs" />
   <AssetSound id="radio" src="https://ice4.somafm.com/defcon-128-mp3" />
  </Assets>
  <Room ambient="0.1 0.1 0.1" pbr="true" defaultlights="false" shadows="true" skybox_back_id="black" skybox_down_id="black" skybox_front_id="black" skybox_left_id="black" skybox_right_id="black" skybox_up_id="black" use_local_asset="room_plane" visible="false">
@@ -31,7 +33,7 @@
   <Object col="1 1 1 0.4" cull_face="none" id="plane" image_id="mute" js_id="radio_mute" lighting="false" locked="false" pos="2 1 9" visible="false" xdir="-1 0 0" zdir="0 0 -1"/>
   
   <Object collision_id="plane" id="plane" js_id="mainvideo" lighting="false" pos="12.5 2.2 3.46" scale="4 2.3 1" video_id="stream" xdir="1 -0.000305 0.000001" ydir="0.000305 0.999848 -0.01745" zdir="0.000004 0.01745 0.999848"/>
-  <Object collision_id="plane" id="plane" websurface_id="music" js_id="A-12-1515907626" lighting="false" pos="0.2 1.3 8.679999" scale="1.4 0.9 1" xdir="-1 -0.000004 -0.000002" ydir="-0.000004 1 -0" zdir="0.000002 0 -1"/>
+  <Object collision_id="plane" id="plane" image_id="nsl-logo" js_id="A-12-1515907626" lighting="false" pos="0.2 1.3 8.679999" scale="1.4 0.9 1" xdir="-1 -0.000004 -0.000002" ydir="-0.000004 1 -0" zdir="0.000002 0 -1"/>
   <Object collision_id="plane" id="plane" js_id="A-13-1515907694" lighting="false" pos="0.48 1.4 9.8" scale="1.4 0.9 1" image_id="computers"/>
   <Object collision_id="plane" id="plane" image_id="polybius" js_id="A-15-1515907744" lighting="false" pos="-0.71 2.01 15.719999" scale="0.95 0.7 1" xdir="0.034901 0.000001 -0.999391" ydir="-0.087103 0.996195 -0.003041" zdir="0.995588 0.087156 0.034768"/>
   <Object collision_id="plane" id="plane" js_id="A-16-1515907821" lighting="false" pos="14.78 2.08 19.629999" scale="1.76 1.281 0.999" websurface_id="nsl" image_id="meetup-thumb" xdir="-0.999716 0.016836 -0.016841" ydir="0.01622 0.999217 0.03609" zdir="0.017435 0.035807 -0.999207"/>
@@ -41,7 +43,7 @@
   <Light col="#327b19" js_id="A-3-1515907241" light_cone_angle="0" light_cone_exponent="1" light_intensity="10" light_range="20" light_shadow="true" pos="17.9 2.2 8" xdir="-0.99944 -0 -0.033453" ydir="0.033034 -0.15787 -0.986907" zdir="-0.005281 -0.98746 0.157782"/>
   <Light col="#00005d" js_id="A-4-1515907319" light_cone_angle="0" light_cone_exponent="1" light_intensity="7" light_range="10" pos="18 2.5 23.4" xdir="0.998917 0 0.046534" ydir="-0.046534 -0.001455 0.998916" zdir="0.000068 -0.999999 -0.001453"/>
   <Light col="#cc65d8" js_id="A-5-1515907364" light_cone_angle="0" light_cone_exponent="1" light_intensity="7" light_range="10" pos="18 2.1 16" xdir="0.996194 0 0.087165" ydir="-0.086701 0.103082 0.990887" zdir="-0.008985 -0.994673 0.10269"/>
-  <Object collision_id="plane" id="plane" js_id="koolguy1337-2-1520557970" pos="14.329 1.8 12.779001" scale="1.67 1.035 1" websurface_id="music" xdir="0.939693 0 0.34202" ydir="-0 1 -0" zdir="-0.34202 0 0.939693"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-2-1520557970" pos="14.329 1.8 12.779001" scale="1.67 1.035 1" websurface_id="twitter" image_id="nsl-logo" xdir="0.939693 0 0.34202" ydir="-0 1 -0" zdir="-0.34202 0 0.939693"/>
   <Object billboard="y" blend_dest="one_minus_constant_color" blend_src="src_alpha" cull_face="none" id="plane" js_id="user-1-1531451473" lighting="false" pos="9.8 1.5 4.4" scale="0.9 1 1.5" shadow_cast="false" video_id="stream2" xdir="0.965926 0 -0.258819" zdir="0.258819 0 0.965926"/>
   <Object id="podium" js_id="jinn-0-1542819967" pos="9.900001 0 4.5" scale="1.1 1 1" xdir="-0.866026 0 0.5" zdir="-0.5 0 -0.866026"/>
  </Room>

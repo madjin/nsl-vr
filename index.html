@@ -12,7 +12,7 @@
   <AssetImage id="meetup-thumb" src="img/nsl-meetup.jpg" />
   <AssetImage id="mute" src="img/win7_mute.png"/>
   <AssetObject id="nsl" src="models/inside/nsl-matterport.gltf"/>
-  <AssetObject id="boombox" src="models/boombox.obj.gz"/>
+  <AssetObject id="boombox" src="models/boombox.obj.gz" mtl="models/boombox.mtl" />
   <AssetObject id="monitor" src="models/BigFloor.dae.gz"/>
   <AssetObject id="podium" mtl="models/podium/podium.mtl" src="models/podium/podium.obj"/>
   <AssetScript src="videoscreen.js"/>	
@@ -20,14 +20,16 @@
   <AssetVideo auto_play="true" height="600" id="stream1" loop="false" src="presentation_noaudio.mp4" width="800"/>
   <AssetVideo auto_play="true" height="500" id="stream2" src="david1.webm" width="600"/>
   <AssetWebsurface height="600" id="meetup" src="https://www.meetup.com/NullSpaceLabs/events/" width="800"/>
-  <AssetSound id="music" src="http://ice4.somafm.com/defcon-128-mp3" />
+  <AssetSound id="music" src="https://ice4.somafm.com/defcon-128-mp3" />
  </Assets>
  <Room ambient="0.1 0.1 0.1" pbr="true" defaultlights="false" shadows="true" skybox_back_id="black" skybox_down_id="black" skybox_front_id="black" skybox_left_id="black" skybox_right_id="black" skybox_up_id="black" use_local_asset="room_plane" visible="false">
   <Object id="nsl" js_id="A-1-1515905543" pos="8 0 11" scale="1.5 1.5 1.5" xdir="0 0 1" zdir="-1 0 0"/>
-  <Object collision_id="cube" collision_pos="2 1 10" collision_scale="2.63144 1.84296 0.67236" id="boombox" js_id="radio_control" locked="true" onclick="radio_click()" pos="2 1 10" xdir="-0.193673 0 -0.981066" zdir="0.981066 0 -0.193673"/>
-  <Object col="1 1 1 0.2" cull_face="none" id="boombox" js_id="radio_control_highlight" locked="true" opacity="0.2" pos="2 1 10" xdir="-0.193673 0 -0.981066" zdir="0.981066 0 -0.193673"/>
-  <Sound gain="0.4" id="radio" js_id="radio_sound" pos="2 1 10" rect="-100 -100 100 100" scale="1.5 1.5 1.5"/>
-  <Object col="1 1 1 0.4" cull_face="none" id="plane" image_id="mute" js_id="radio_mute" lighting="false" locked="false" pos="2 1 10" visible="false" xdir="0.970248 0 -0.242112" zdir="0.242112 0 0.970248"/>
+ 
+  <Object collision_id="cube" collision_pos="2 1 9" collision_scale="2.63144 1.84296 0.67236" id="boombox" js_id="radio_control" locked="true" onclick="radio_click()" pos="2 1 9" xdir="-1 0 0" zdir="0 0 -1"/>
+  <Object col="1 1 1 0.2" cull_face="none" id="boombox" js_id="radio_control_highlight" locked="true" opacity="0.2" pos="2 1 9" xdir="-1 0 0" zdir="0 0 -1"/>
+  <Sound gain="0.4" id="radio" js_id="radio_sound" pos="2 1 9" rect="-100 -100 100 100" scale="1.5 1.5 1.5"/>
+  <Object col="1 1 1 0.4" cull_face="none" id="plane" image_id="mute" js_id="radio_mute" lighting="false" locked="false" pos="2 1 9" visible="false" xdir="-1 0 0" zdir="0 0 -1"/>
+  
   <Object collision_id="plane" id="plane" js_id="mainvideo" lighting="false" pos="12.5 2.2 3.46" scale="4 2.3 1" video_id="stream" xdir="1 -0.000305 0.000001" ydir="0.000305 0.999848 -0.01745" zdir="0.000004 0.01745 0.999848"/>
   <Object collision_id="plane" id="plane" websurface_id="music" js_id="A-12-1515907626" lighting="false" pos="0.2 1.3 8.679999" scale="1.4 0.9 1" xdir="-1 -0.000004 -0.000002" ydir="-0.000004 1 -0" zdir="0.000002 0 -1"/>
   <Object collision_id="plane" id="plane" js_id="A-13-1515907694" lighting="false" pos="0.48 1.4 9.8" scale="1.4 0.9 1" image_id="computers"/>

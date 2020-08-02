@@ -15,6 +15,7 @@ Features:
 
 To do:
 
+- Debug VR mode
 - Easier onboarding
   - Avatar and microphone select before entering world
 - Hologram speaker

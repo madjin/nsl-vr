@@ -2,6 +2,8 @@
 
 Digital twin of Nullspace Labs converted into a multi-user virtual hackerspace that runs in your browser
 
+![](https://i.imgur.com/U6rdRyN.jpg)
+
 ![](https://i.imgur.com/R81peLn.jpg)
 
 Features:

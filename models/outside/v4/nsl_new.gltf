@@ -1,0 +1,207 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "BuildingMesh-00061.001",
+            "rotation" : [
+                0,
+                7.188040854089195e-06,
+                0.7071089148521423,
+                0.7071046233177185
+            ],
+            "scale" : [
+                0.003906252793967724,
+                0.00390625,
+                0.003906234633177519
+            ],
+            "translation" : [
+                -1.9367189407348633,
+                0.4240366816520691,
+                -4.0214524269104
+            ]
+        },
+        {
+            "name" : "BuildingMesh-00061.002",
+            "rotation" : [
+                0,
+                7.188040854089195e-06,
+                0.7071089148521423,
+                0.7071046233177185
+            ],
+            "scale" : [
+                0.003906252793967724,
+                0.00390625,
+                0.003906234633177519
+            ],
+            "translation" : [
+                -1.9367189407348633,
+                0.4240366816520691,
+                -4.0214524269104
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "BuildingMesh-00078.001",
+            "rotation" : [
+                0,
+                6.476978796854382e-06,
+                0.7071041464805603,
+                0.7071093916893005
+            ],
+            "scale" : [
+                0.007812511175870895,
+                0.00781250186264515,
+                0.007812549360096455
+            ],
+            "translation" : [
+                3.299476146697998,
+                -0.5327495336532593,
+                0.30901575088500977
+            ]
+        },
+        {
+            "name" : "BuildingMesh-00061",
+            "rotation" : [
+                0,
+                7.188040854089195e-06,
+                0.7071089148521423,
+                0.7071046233177185
+            ],
+            "scale" : [
+                0.003906252793967724,
+                0.00390625,
+                0.003906234633177519
+            ],
+            "translation" : [
+                -1.9367189407348633,
+                0.4240366816520691,
+                -4.0214524269104
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "material_atlas_53052_1.002",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "BuildingMesh-00078.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Atlas_53052",
+            "uri" : "Atlas_53052.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 116303,
+            "max" : [
+                177.68218994140625,
+                748.7697143554688,
+                285.7704772949219
+            ],
+            "min" : [
+                70.27336120605469,
+                -0.00048082656576298177,
+                -439.80975341796875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 116303,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 116303,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 125973,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1395636,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1395636,
+            "byteOffset" : 1395636
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 930424,
+            "byteOffset" : 2791272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 503892,
+            "byteOffset" : 3721696
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4225588,
+            "uri" : "nsl_new.bin"
+        }
+    ]
+}

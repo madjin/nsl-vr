@@ -12,3 +12,11 @@ Features:
 - Internet Radio
 - Version 3 and Version 4 of NSL (working on V4)
 - Podium and screen setup for hologram presentations
+
+To do:
+
+- Easier onboarding
+  - Avatar and microphone select before entering world
+- Hologram speaker
+- Exit portal to the street
+  - Neighborhood of hackerspaces?

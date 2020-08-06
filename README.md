@@ -15,6 +15,9 @@ Features:
 
 To do:
 
+- Optimize model
+  - Rebake UV maps
+  - Replace chairs / tables
 - Debug VR mode
 - Easier onboarding
   - Avatar and microphone select before entering world

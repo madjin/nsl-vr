@@ -20,7 +20,8 @@ Digital twin of Nullspace Labs converted into a multi-user virtual hackerspace t
 - JanusXR
   - https://madjin.github.io/nsl-vr/ - Hosted on Github pages
   - https://nullspace.on.fleek.co/ - Hosted on Fleek (IPFS)
-  - https://viewblock.io/unstoppable/makersdistrict.crypto - Unstoppable domains
+  - http://nsl.makersdistrict.eth.link/ - Hosted on IPFS + ENS
+  - https://viewblock.io/unstoppable/makersdistrict.crypto - Unstoppable domains + IPFS
 - Hubs
   - https://hubs.mozilla.com/rriv6TU/nsl/ - Demo room
 - VRChat

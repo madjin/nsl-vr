@@ -6,14 +6,32 @@ Digital twin of Nullspace Labs converted into a multi-user virtual hackerspace t
 
 ![](https://i.imgur.com/R81peLn.jpg)
 
-Features:
+## Features
 
 - Avatars with VOIP and video sharing support
 - Internet Radio
 - Version 3 and Version 4 of NSL (working on V4)
 - Podium and screen setup for hologram presentations
 
-To do:
+---
+
+## Demos
+
+- JanusXR
+  - https://madjin.github.io/nsl-vr/ - Hosted on Github pages
+  - https://nullspace.on.fleek.co/ - Hosted on Fleek (IPFS)
+  - http://nsl.makersdistrict.eth.link/ - Hosted on IPFS + ENS
+  - https://viewblock.io/unstoppable/makersdistrict.crypto - Unstoppable domains + IPFS
+- Hubs
+  - https://hubs.mozilla.com/rriv6TU/nsl/ - Demo room
+- VRChat
+  - https://vrchat.com/i/goose-moetroglo-6c917 - This world is not public yet
+- Sketchfab
+  - https://sketchfab.com/3d-models/nullspace-labs-95da4f9e0956498f8e2a5b28c2c5c3d4 - Downloadable 3d model
+
+---
+
+### To do:
 
 - Optimize model
   - Rebake UV maps
@@ -24,3 +42,4 @@ To do:
 - Hologram speaker
 - Exit portal to the street
   - Neighborhood of hackerspaces?
+- NeosVR version

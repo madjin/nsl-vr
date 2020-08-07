@@ -12,19 +12,20 @@
   <AssetImage id="meetup-thumb" src="img/nsl-meetup.jpg" />
   <AssetImage id="mute" src="img/win7_mute.png"/>
   <AssetImage id="nsl-logo" src="img/nsl.jpg" />
+  <AssetImage id="cv" src="img/cv.jpg" />
   <AssetImage id="nsl-logo2" src="img/nsl2.jpg" />
-  <AssetImage id="krunker-thumb" src="https://i.imgur.com/9R47hmY.jpg" />
+  <AssetImage id="podium-logo" src="https://i.imgur.com/bOUKujF.png" />
   <AssetObject id="nsl" src="models/inside/v3/nsl-matterport.gltf"/>
   <AssetObject id="boombox" src="models/boombox.obj.gz" mtl="models/boombox.mtl" />
   <AssetObject id="monitor" src="models/BigFloor.dae.gz"/>
   <AssetObject id="podium" mtl="models/podium/podium.mtl" src="models/podium/podium.obj"/>
   <AssetScript src="videoscreen.js"/>	
-  <AssetVideo auto_play="true" height="600" id="stream1" loop="false" src="presentation_noaudio.mp4" width="800"/>
-  <AssetVideo auto_play="true" height="500" id="stream2" src="david1.webm" width="600"/>
+  <AssetVideo auto_play="true" height="600" id="stream1" loop="false" src="https://s.kool.world/vid/labday/28/presentation.mp4" width="800"/>
+  <AssetVideo auto_play="true" height="500" id="stream2" src="https://s.kool.world/vid/labday/28/face.webm" width="600"/>
   <AssetWebsurface height="600" id="meetup" src="https://www.meetup.com/NullSpaceLabs/events/calendar/" width="800"/>
   <AssetWebsurface id="somafm" src="https://somafm.com/player/#/now-playing/defcon"/>
   <AssetWebsurface id="twitter" src="https://twitter.com/nullspacelabs" />
-  <AssetWebsurface id="krunker" src="https://krunker.io" />
+  <AssetWebsurface id="spaces" src="https://www.cryptovoxels.com/account/spaces" />
   <AssetWebsurface id="nsl-website" src="https://032.la/" />
   <AssetWebsurface id="loftradio" src="https://loft.radio/" />
   <AssetWebsurface id="music" src="https://ice4.somafm.com/defcon-128-mp3" auto_play="true" />
@@ -35,7 +36,7 @@
   <Object collision_id="cube" collision_pos="2 1 9" collision_scale="33144 2.44296 1" id="boombox" js_id="radio_control" locked="true" onclick="radio_click()" pos="2 1 9" xdir="-1 0 0" zdir="0 0 -1"/>
   <!--<Sound gain="0.4" id="radio" js_id="radio_sound" pos="2 1 9" rect="-100 -100 100 100" scale="1.5 1.5 1.5"/>-->
 	
-  <Object collision_id="plane" id="plane" js_id="mainvideo" lighting="false" pos="12.5 2.2 3.46" scale="4 2.3 1" xdir="1 -0.000305 0.000001" ydir="0.000305 0.999848 -0.01745" zdir="0.000004 0.01745 0.999848" websurface_id="nsl-website" />
+  <Object collision_id="plane" id="plane" js_id="mainvideo" lighting="false" pos="12.5 2.2 3.46" scale="4 2.3 1" xdir="1 -0.000305 0.000001" ydir="0.000305 0.999848 -0.01745" zdir="0.000004 0.01745 0.999848" video_id="stream1" />
   <Object collision_id="plane" id="plane" websurface_id="loftradio" js_id="A-12-1515907626" lighting="true" pos="0.2 1.3 8.679999" scale="1.4 0.9 1" xdir="-1 -0.000004 -0.000002" ydir="-0.000004 1 -0" zdir="0.000002 0 -1"/>
   <Object collision_id="plane" id="plane" js_id="A-13-1515907694" lighting="false" pos="0.48 1.4 9.8" scale="1.4 0.9 1" image_id="computers" />
   <Object collision_id="plane" id="plane" image_id="polybius" js_id="A-15-1515907744" lighting="false" pos="-0.71 2.01 15.719999" scale="0.95 0.7 1" xdir="0.034901 0.000001 -0.999391" ydir="-0.087103 0.996195 -0.003041" zdir="0.995588 0.087156 0.034768"/>
@@ -46,9 +47,18 @@
   <Light col="#327b19" js_id="A-3-1515907241" light_cone_angle="0" light_cone_exponent="1" light_intensity="10" light_range="20" light_shadow="true" pos="17.9 2.2 8" xdir="-0.99944 -0 -0.033453" ydir="0.033034 -0.15787 -0.986907" zdir="-0.005281 -0.98746 0.157782"/>
   <Light col="#00005d" js_id="A-4-1515907319" light_cone_angle="0" light_cone_exponent="1" light_intensity="7" light_range="10" pos="18 2.5 23.4" xdir="0.998917 0 0.046534" ydir="-0.046534 -0.001455 0.998916" zdir="0.000068 -0.999999 -0.001453"/>
   <Light col="#cc65d8" js_id="A-5-1515907364" light_cone_angle="0" light_cone_exponent="1" light_intensity="7" light_range="10" pos="18 2.1 16" xdir="0.996194 0 0.087165" ydir="-0.086701 0.103082 0.990887" zdir="-0.008985 -0.994673 0.10269"/>
-  <Object collision_id="plane" id="plane" js_id="koolguy1337-2-1520557970" pos="14.329 1.8 12.779001" scale="1.67 1.035 1" websurface_id="music" image_id="nsl-logo2" xdir="0.939693 0 0.34202" ydir="-0 1 -0" zdir="-0.34202 0 0.939693"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-2-1520557970" pos="14.329 1.8 12.779001" scale="1.67 1.035 1"  xdir="0.939693 0 0.34202" ydir="-0 1 -0" zdir="-0.34202 0 0.939693" image_id="cv" websurface_id="spaces" />
+  <Object id="plane" js_id="jin_4596-1-1596762365" pos="5.05 2.43 20.939999" xdir="-1 0 0" zdir="0 0 -1" scale="1.5 1.2 1" collision_id="plane" websurface_id="music" image_id="nsl-logo2" />
   <Object billboard="y" blend_dest="one_minus_constant_color" blend_src="src_alpha" cull_face="none" id="plane" js_id="user-1-1531451473" lighting="false" pos="9.8 1.5 4.4" scale="0.9 1 1.5" shadow_cast="false" video_id="stream2" xdir="0.965926 0 -0.258819" zdir="0.258819 0 0.965926"/>
   <Object id="podium" js_id="jinn-0-1542819967" pos="9.900001 0 4.5" scale="1.1 1 1" xdir="-0.866026 0 0.5" zdir="-0.5 0 -0.866026"/>
+  <Object id="plane" js_id="jin_4596-1-1596762204" pos="10.06 0.81 4.75" xdir="0.868684 0.000364 -0.495367" ydir="-0.057515 0.993311 -0.100129" zdir="0.492017 0.115472 0.862894" scale="0.8 0.8 1" lighting="false" cull_face="none" collision_id="plane" image_id="podium-logo2" />
+  <Object id="plane" js_id="jin_4596-1-1596762365" pos="5.05 2.43 20.939999" xdir="-1 0 0" zdir="0 0 -1" scale="1.5 1.2 1" collision_id="plane" image_id="nsl-logo" websurface_id="nsl-website" />
+  <Object id="monitor" js_id="jin_4596-2-1596762437" pos="14.1 1.6 9.900001" xdir="0.965926 0 0.258819" zdir="-0.258819 0 0.965926" scale="0.8 0.8 0.8" cull_face="none" />
+  <Object id="plane" js_id="jin_4596-3-1596762538" pos="14.1 1.6 9.900001" xdir="0.965926 0 0.258819" zdir="-0.258819 0 0.965926" scale="1.4 0.8 1" collision_id="plane" image_id="cv" websurface_id="spaces" />
+  <Object id="monitor" js_id="jin_4596-4-1596762579" pos="9.700001 3.1 9.900001" xdir="-0.707106 0 0.707107" ydir="0 -1 0" zdir="0.707107 0 0.707106" scale="0.8 0.8 0.8" cull_face="none" />
+  <Object id="plane" js_id="jin_4596-8-1596762800" pos="9.700001 3.1 9.900001" xdir="0.707107 0 -0.707106" zdir="0.707106 0 0.707107" scale="1.4 0.8 1" collision_id="plane" image_id="nsl-logo" />
+  <Object id="monitor" js_id="jin_4596-5-1596762736" pos="9.6 3.1 14.7" xdir="-0.707106 0 0.707107" ydir="0 -1 0" zdir="0.707107 0 0.707106" scale="0.8 0.8 0.8" cull_face="none"  />
+  <Object id="plane" js_id="jin_4596-9-1596762853" pos="9.6 3.1 14.7" xdir="0.707107 0 -0.707106" zdir="0.707106 0 0.707107" scale="1.4 0.8 1" collision_id="plane" video_id="stream1" />
  </Room>
 </FireBoxRoom>
 -->

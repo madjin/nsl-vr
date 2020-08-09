@@ -44,3 +44,8 @@ Digital twin of Nullspace Labs converted into a multi-user virtual hackerspace t
 - Exit portal to the street
   - Neighborhood of hackerspaces?
 - NeosVR version
+
+Check out these other virtual hackerspaces!
+
+- https://github.com/madjin/noisebridge-vr
+- https://github.com/madjin/hacklab-vr

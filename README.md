@@ -23,7 +23,8 @@ Digital twin of Nullspace Labs converted into a multi-user virtual hackerspace t
   - http://nsl.makersdistrict.eth.link/ - Hosted on IPFS + ENS
   - https://viewblock.io/unstoppable/makersdistrict.crypto - Unstoppable domains + IPFS
 - Hubs
-  - https://hubs.mozilla.com/rriv6TU/nsl/ - Demo room
+  - https://hubs.mozilla.com/tQMfxAi/nsl - Demo room
+  - https://hubs.mozilla.com/scenes/92gutCh - Spoke (remix)
 - VRChat
   - https://vrchat.com/i/goose-moetroglo-6c917 - This world is not public yet
 - Sketchfab

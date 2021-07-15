@@ -1,0 +1,49 @@
+<FireBoxRoom>
+  <Assets>
+    <assetobject id="nslv3" src="models/inside/v3/nsl-matterport.gltf" />
+    <assetobject id="boombox" src="models/boombox.obj.gz" />
+    <assetobject id="monitor" src="models/BigFloor.dae.gz" />
+    <assetobject id="podium" src="models/podium/podium.obj" />
+    <assetimage id="black" src="img/black.png" />
+    <assetimage id="computers" src="img/computers.gif" />
+    <assetimage id="polybius" src="img/poly.gif" />
+    <assetimage id="nsl-logo2" src="img/nsl2.jpg" />
+    <assetimage id="cv" src="img/cv.jpg" />
+    <assetimage id="speaker" src="https://i.imgur.com/NeyNEt6.png" />
+    <assetimage id="presentation" src="https://i.imgur.com/UgohdnH.png" />
+    <assetimage id="podium-logo" src="https://i.imgur.com/bOUKujF.png" />
+    <assetimage id="nsl-logo" src="img/nsl.jpg" />
+    <assetvideo id="stream1" src="https://s.kool.world/vid/labday/28/presentation.mp4" />
+    <assetvideo id="stream2" src="https://s.kool.world/vid/labday/28/face.webm" />
+  </Assets>
+  <Room fog_start="0.01" fog_end="1000" fog_col="1 1 1" ambient="0.1 0.1 0.1" defaultlights="false" pbr="true" shadows="true" js_id="00811c30a6e0c0cd7dac560e25816c1d" skybox_left_id="black" skybox_right_id="black" skybox_up_id="black" skybox_down_id="black" skybox_front_id="black" skybox_back_id="black">
+    <raycaster js_id="raycaster_1" />
+    <object js_id="A-1-1515905543" pos="8 0 11" scale="1.5 1.5 1.5" fwd="-1 0 0" xdir="0 0 1" zdir="-1 0 0" id="nslv3" />
+    <object js_id="radio_control" pos="2 1 9" locked="true" collision_id="cube" collision_pos="2 1 9" collision_scale="33144 2.443 1" fwd="0 0 -1" xdir="-1 0 0" zdir="0 0 -1" id="boombox" />
+    <object js_id="mainvideo" pos="12.5 2.2 3.46" scale="4 2.3 1" collision_id="plane" fwd="0 0.0175 0.9998" xdir="1 -0.0003 0" ydir="0.0003 0.9998 -0.0174" zdir="0 0.0175 0.9998" id="plane" image_id="presentation" lighting="false" />
+    <object js_id="A-12-1515907626" pos="0.2 1.3 8.68" scale="1.4 0.9 1" collision_id="plane" fwd="0 0 -1" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" id="plane" url="https://loft.radio/" websurface_id="loftradio" />
+    <object js_id="A-13-1515907694" pos="0.48 1.4 9.8" scale="1.4 0.9 1" collision_id="plane" id="plane" image_id="computers" lighting="false" />
+    <object js_id="A-15-1515907744" pos="-0.71 2.01 15.72" scale="0.95 0.7 1" collision_id="plane" fwd="0.9956 0.0872 0.0348" xdir="0.0349 0 -0.9994" ydir="-0.0871 0.9962 -0.003" zdir="0.9956 0.0872 0.0348" id="plane" image_id="polybius" lighting="false" />
+    <object js_id="A-16-1515907821" pos="14.78 2.08 19.63" scale="1.76 1.281 0.999" collision_id="plane" fwd="0.0174 0.0358 -0.9992" xdir="-0.9997 0.0168 -0.0168" ydir="0.0162 0.9992 0.0361" zdir="0.0174 0.0358 -0.9992" id="plane" url="https://poolside.fm/" image_id="nsl-logo2" websurface_id="poolside" lighting="false" />
+    <object js_id="ksdljf-5-1519876579" pos="14.3 1.8 12.8" fwd="-0.3352 0 0.9422" xdir="0.9422 0 0.3352" zdir="-0.3352 0 0.9422" id="monitor" cull_face="none" />
+    <object js_id="koolguy1337-2-1520557970" pos="14.329 1.8 12.779" scale="1.67 1.035 1" collision_id="plane" fwd="-0.342 0 0.9397" xdir="0.9397 0 0.342" zdir="-0.342 0 0.9397" id="plane" url="https://www.cryptovoxels.com/account/spaces" image_id="cv" websurface_id="spaces" lighting="false" />
+    <object js_id="jin_4596-1-1596762365" pos="5.05 2.43 20.94" scale="1.5 1.2 1" collision_id="plane" fwd="0 0 -1" xdir="-1 0 0" zdir="0 0 -1" id="plane" url="https://ice4.somafm.com/defcon-128-mp3" image_id="nsl-logo2" websurface_id="music" />
+    <object js_id="user-1-1531451473" pos="9.8 1.5 4.4" scale="0.9 1 1.5" billboard="y" fwd="0.4456 0 0.8952" xdir="0.8952 0 -0.4456" zdir="0.4456 0 0.8952" id="plane" image_id="speaker" lighting="false" shadow_cast="false" cull_face="none" blend_dest="one_minus_constant_color" />
+    <object js_id="jinn-0-1542819967" pos="9.9 0 4.5" scale="1.1 1 1" fwd="-0.5 0 -0.866" xdir="-0.866 0 0.5" zdir="-0.5 0 -0.866" id="podium" />
+    <object js_id="jin_4596-1-1596762204" pos="10.06 0.81 4.75" scale="0.8 0.8 1" collision_id="plane" fwd="0.492 0.1155 0.8629" xdir="0.8687 0.0004 -0.4954" ydir="-0.0575 0.9933 -0.1001" zdir="0.492 0.1155 0.8629" id="plane" image_id="podium-logo" lighting="false" cull_face="none" />
+    <object js_id="jin_4596-1-1596762365_15" pos="5.05 2.43 20.94" scale="1.5 1.2 1" collision_id="plane" fwd="0 0 -1" xdir="-1 0 0" zdir="0 0 -1" id="plane" url="https://032.la/" image_id="nsl-logo" websurface_id="nsl-website" />
+    <object js_id="jin_4596-2-1596762437" pos="14.1 1.6 9.9" scale="0.8 0.8 0.8" fwd="-0.2588 0 0.9659" xdir="0.9659 0 0.2588" zdir="-0.2588 0 0.9659" id="monitor" cull_face="none" />
+    <object js_id="jin_4596-3-1596762538" pos="14.1 1.6 9.9" scale="1.4 0.8 1" collision_id="plane" fwd="-0.2588 0 0.9659" xdir="0.9659 0 0.2588" zdir="-0.2588 0 0.9659" id="plane" url="https://www.cryptovoxels.com/account/spaces" image_id="cv" websurface_id="spaces" lighting="false" />
+    <object js_id="jin_4596-4-1596762579" pos="9.7 3.1 9.9" scale="0.8 0.8 0.8" fwd="0.7071 0 0.7071" xdir="-0.7071 0 0.7071" ydir="0 -1 0" zdir="0.7071 0 0.7071" id="monitor" cull_face="none" />
+    <object js_id="jin_4596-8-1596762800" pos="9.7 3.1 9.9" scale="1.4 0.8 1" collision_id="plane" fwd="0.7071 0 0.7071" xdir="0.7071 0 -0.7071" zdir="0.7071 0 0.7071" id="plane" image_id="nsl-logo" />
+    <object js_id="jin_4596-5-1596762736" pos="9.6 3.1 14.7" scale="0.8 0.8 0.8" fwd="0.7071 0 0.7071" xdir="-0.7071 0 0.7071" ydir="0 -1 0" zdir="0.7071 0 0.7071" id="monitor" cull_face="none" />
+    <object js_id="jin_4596-9-1596762853" pos="9.6 3.1 14.7" scale="1.4 0.8 1" collision_id="plane" fwd="0.7071 0 0.7071" xdir="0.7071 0 -0.7071" zdir="0.7071 0 0.7071" id="plane" image_id="presentation" lighting="false" />
+    <light js_id="A-4-1504228698" pos="0.4 2.2 7" col="0 0.4549 0.7373" collision_trigger="false" fwd="0.0162 -0.9979 0.0634" xdir="-0.9689 0 0.2476" ydir="-0.247 -0.0654 -0.9668" zdir="0.0162 -0.9979 0.0634" light_range="10" />
+    <light js_id="A-2-1515907209" pos="0.5 2.7 15.1" col="0 0 0.7373" collision_trigger="false" fwd="-0.0137 -0.9678 0.2514" xdir="0.9985 0 0.0545" ydir="-0.0528 0.2518 0.9663" zdir="-0.0137 -0.9678 0.2514" light_range="10" light_intensity="7" />
+    <light js_id="A-3-1515907241" pos="17.9 2.2 8" col="0.1961 0.4824 0.098" collision_trigger="false" fwd="-0.0053 -0.9875 0.1578" xdir="-0.9994 0 -0.0335" ydir="0.033 -0.1579 -0.9869" zdir="-0.0053 -0.9875 0.1578" light_range="20" light_shadow="true" />
+    <light js_id="A-4-1515907319" pos="18 2.5 23.4" col="0 0 0.3647" collision_trigger="false" fwd="0.0001 -1 -0.0015" xdir="0.9989 0 0.0465" ydir="-0.0465 -0.0015 0.9989" zdir="0.0001 -1 -0.0015" light_range="10" light_intensity="7" />
+    <light js_id="A-5-1515907364" pos="18 2.1 16" col="0.8 0.3961 0.8471" collision_trigger="false" fwd="-0.009 -0.9947 0.1027" xdir="0.9962 0 0.0872" ydir="-0.0867 0.1031 0.9909" zdir="-0.009 -0.9947 0.1027" light_range="10" light_intensity="7" />
+    <link js_id="janusportal_14" pos="18.062 0.0868 31.3806" fwd="-0.0239 0 -0.9997" zdir="-0.0239 0 -0.9997" url="https://noisebridge.on.fleek.co/" shader_id="defaultportal" size="1.5 3 1" round="true" />
+    <object js_id="janusobject_23" collision_id="cube" collision_pos="0 -50 0" collision_scale="100000 100 100000" />
+</Room>
+</FireBoxRoom>

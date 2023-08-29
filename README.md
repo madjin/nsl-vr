@@ -29,6 +29,8 @@ Digital twin of Nullspace Labs converted into a multi-user virtual hackerspace t
   - https://vrchat.com/i/goose-moetroglo-6c917 - This world is not public yet
 - Sketchfab
   - https://sketchfab.com/3d-models/nullspace-labs-95da4f9e0956498f8e2a5b28c2c5c3d4 - Downloadable 3d model
+- Hyperfy.io
+  - https://hyperfy.io/nsl
 
 ---
 
